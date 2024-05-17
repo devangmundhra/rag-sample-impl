@@ -1,0 +1,25 @@
+/* CSS Styles for the chatbot */
+#chat-container {
+    width: 80%; /* Adjusted width to 80% */
+    margin: 0 auto;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+#chat-messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.user-message {
+    background-color: #d3d3d3;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.bot-message {
+    background-color: #add8e6;
+    padding: 5px;
+    margin-bottom: 5px;
+}
